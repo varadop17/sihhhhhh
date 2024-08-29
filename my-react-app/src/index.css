@@ -1,0 +1,52 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.header {
+  background-color: #004d00;
+  color: #ffffff;
+}
+
+.button-primary {
+  background-color: #004d00;
+  color: #ffffff;
+}
+
+.button-primary:hover {
+  background-color: #003300;
+}
+
+/* Custom card styles */
+.card {
+  height: 300px; /* Fixed height to maintain square shape */
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333333;
+}
+
+.card-date {
+  color: #888888;
+}
+
+.card-summary {
+  color: #555555;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
